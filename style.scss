@@ -16,6 +16,12 @@ $c-white:#f8f8f8;
     display: grid;
     place-items: center;
     transition: 0.3s all;
+
+    &:hover{
+        border: 4px solid $c-black;
+        background-color: $c-white;
+        color: $c-black;
+    }
 }
 
 /* 共通設定*/
