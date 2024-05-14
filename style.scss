@@ -50,6 +50,9 @@ body{
     
     &__list{
         list-style-type: none;
+        @include pcsize{
+            display: flex;
+        }
     }
     &__link{
         @include circle-btn;
