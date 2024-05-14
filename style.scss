@@ -31,6 +31,11 @@ $c-white:#f8f8f8;
 
     }
 }
+//rem計算用のfunction
+@function rem($px,$base:16){
+   @return $px/$base*1rem;
+
+}
 
 /* 共通設定*/
 *{
