@@ -24,6 +24,14 @@ $c-white:#f8f8f8;
     }
 }
 
+//レスポンシブ対応
+@mixin pcsize{
+    @media (min-width:769px){
+        @content;//中身は呼び出し先で設定
+
+    }
+}
+
 /* 共通設定*/
 *{
     box-sizing: border-box;

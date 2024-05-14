@@ -18,6 +18,11 @@ body {
 .gnavi__list {
   list-style-type: none;
 }
+@media (min-width: 769px) {
+  .gnavi__list {
+    display: flex;
+  }
+}
 .gnavi__link {
   color: #f8f8f8;
   text-decoration: none;
