@@ -61,6 +61,6 @@ body{
         }
     }
     &__link{
-        @include circle-btn;
+        @include circle-btn(yellow);
     }
 }
